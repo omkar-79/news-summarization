@@ -10,3 +10,4 @@ wordcloud
 rouge-score
 tqdm
 Flask
+ipykernel

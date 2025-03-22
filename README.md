@@ -28,3 +28,42 @@ Dataset used: [CNN/DailyMail](https://huggingface.co/datasets/abisee/cnn_dailyma
 | ROUGE-2     | 0.1204 |
 | ROUGE-L     | 0.2483 |
 | ROUGE-Lsum  | 0.2483 |
+
+
+## 🛠️ Project Setup
+
+### 1. **Clone the repository:**
+```bash
+git clone https://github.com/omkar-79/news-summarization.git
+cd news-summarization
+```
+
+### 2. **Create a virtual environment (Optional):**
+```
+# For Python 3.x
+python3 -m venv venv
+source venv/bin/activate    # On Linux/Mac
+# OR
+venv\Scripts\activate       # On Windows
+```
+
+### 3. **Install required packages:**
+```
+pip install -r requirements.txt
+```
+
+### 4. **Run the Jupyter Notebook:**
+- Open the .ipynb file using Jupyter Notebook or Jupyter Lab.
+- Run all the cells to fine-tune the model.
+- The fine-tuned model will be saved to:
+```
+./t5_finetuned
+```
+
+### 5. **Run the Flask Application:**
+```
+python app.py
+```
+
+### 6. **Open the Interface:**
+After running app.py, open index.html in your browser to access the application.

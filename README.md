@@ -14,15 +14,17 @@ Dataset used: [CNN/DailyMail](https://huggingface.co/datasets/abisee/cnn_dailyma
 
 ---
 
-## Web Dashboard
+## 🖥️ Web Dashboard
 
-![WebApp Screenshot](https://i.ibb.co/mV8nLnW2/webpage.jpg)
+![WebApp Screenshot](https://i.imgur.com/t3QIc1Y.jpeg)
 
 ---
 
-## 🛠️ Project Setup
+## 📊 Evaluation Results
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+| Metric      | Score  |
+|-------------|--------|
+| ROUGE-1     | 0.2969 |
+| ROUGE-2     | 0.1204 |
+| ROUGE-L     | 0.2483 |
+| ROUGE-Lsum  | 0.2483 |

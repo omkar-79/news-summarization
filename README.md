@@ -1,3 +1,4 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 # 📰 News Summarization using T5 Model
 
 This project implements a **news summarization system** using the **T5-base** model, fine-tuned on the **CNN/DailyMail** dataset from Hugging Face. The project covers data pre-processing, exploratory data analysis (EDA), model fine-tuning, and evaluation using ROUGE scores.
